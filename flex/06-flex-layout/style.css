@@ -5,10 +5,73 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li a{
+  text-decoration: none;
 }
 
 img {
   width: 600px;
+}
+
+.header .left-links,
+.header .right-links,
+.footer .left-links,
+.footer .right-links{
+  display: inline-flex;
+}
+
+a{
+  margin: 15px;
+  color: #282b2e;
+}
+
+.left-links,
+.right-links{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header,
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.screen{
+  height: 84vh;
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
+
+div.input,
+div.buttons
+{
+  display: flex;
+  justify-content: center;
+}
+
+ .main-part .screen{
+flex: 1 1 auto;
+
+}
+
+
+.footer{
+ background-color: #eee;
+ align-items: center;
+}
+
+.left-links{
+
 }
 
 button {
