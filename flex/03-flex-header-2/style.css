@@ -7,6 +7,42 @@ body {
   background: #eee;
   font-family: Besley, serif;
 }
+.header{
+  display:flex;
+  align-items: center;
+}
+
+.logo{
+  display: inline-flex;
+  margin-left: 16px;
+}
+
+.navbar{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 1000px;
+  flex: 1 1 auto;
+  
+}
+
+.navbar li{
+display: inline;
+margin: 8px;
+}
+
+.right-box{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.navbar right-box{
+
+margin-left: auto;
+
+}
 
 .header {
   background: white;
@@ -20,6 +56,8 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
+  display: inline-flex;
+  margin: 8px 16px 8px 8px;
 }
 
 .logo {
@@ -36,6 +74,10 @@ button {
   color: white;
   padding: 8px 24px;
 }
+
+.notifications{
+  align-self: center;
+} 
 
 a {
   /* this removes the line under our links */
