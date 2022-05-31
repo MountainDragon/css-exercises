@@ -15,7 +15,38 @@ body {
   justify-content: center;
 }
 
+.first-line{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.header{
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 22px;
+}
+.close-button{
+  margin-left: auto;
+}
+
+.bottom{
+  margin-left: 62px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+
+.text{
+  padding-left: 62px;
+  padding-right: 12px;
+}
+
+
 .modal {
+
   background: white;
   width: 480px;
   border-radius: 10px;
